@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-server": "encore dev-server",
+    "dev-server": "node ./server/server.ts && encore dev-server",
     "build-dev": "encore dev",
     "dev": "encore dev --watch",
     "build": "encore production --progress",
